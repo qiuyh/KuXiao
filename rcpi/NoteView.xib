@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoteView">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="85"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiazaituxiang" translatesAutoresizingMaskIntoConstraints="NO" id="Cbi-Ar-96S">
+                    <rect key="frame" x="8" y="8" width="35" height="35"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="IXG-Rb-wHv"/>
+                        <constraint firstAttribute="width" constant="35" id="jPu-jm-hbz"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昵称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXG-z4-ykE">
+                    <rect key="frame" x="51" y="11" width="221" height="16"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="JLf-BM-uhF"/>
+                        <constraint firstAttribute="width" constant="221" id="kHn-iK-zSn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xq-85-Udg">
+                    <rect key="frame" x="272" y="6" width="62" height="22"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="62" id="DMa-LV-KxJ"/>
+                        <constraint firstAttribute="height" constant="22" id="gxw-qy-goo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="110" image="icon_laud">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooN-hx-r6y">
+                    <rect key="frame" x="8" y="51" width="328" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015 - 10 - 22 14：59：46" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npt-WA-FDg">
+                    <rect key="frame" x="51" y="32" width="163" height="11"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="11" id="7JT-XL-DBz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ooN-hx-r6y" firstAttribute="top" secondItem="npt-WA-FDg" secondAttribute="bottom" constant="8" id="67o-j5-pFl"/>
+                <constraint firstItem="mXG-z4-ykE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="LIh-d4-qPg"/>
+                <constraint firstAttribute="trailing" secondItem="6xq-85-Udg" secondAttribute="trailing" constant="10" id="LvI-pF-bTd"/>
+                <constraint firstItem="Cbi-Ar-96S" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="MJd-vM-Dsy"/>
+                <constraint firstAttribute="trailing" secondItem="ooN-hx-r6y" secondAttribute="trailing" constant="8" id="OEq-zp-ZOw"/>
+                <constraint firstItem="6xq-85-Udg" firstAttribute="leading" secondItem="mXG-z4-ykE" secondAttribute="trailing" id="PrW-Mo-2jR"/>
+                <constraint firstItem="Cbi-Ar-96S" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Scx-ki-DLY"/>
+                <constraint firstItem="mXG-z4-ykE" firstAttribute="leading" secondItem="Cbi-Ar-96S" secondAttribute="trailing" constant="8" id="XBa-Rx-cRf"/>
+                <constraint firstItem="npt-WA-FDg" firstAttribute="bottom" secondItem="Cbi-Ar-96S" secondAttribute="bottom" id="ZEJ-BZ-onl"/>
+                <constraint firstItem="npt-WA-FDg" firstAttribute="leading" secondItem="Cbi-Ar-96S" secondAttribute="trailing" constant="8" id="ZbS-fd-tQg"/>
+                <constraint firstItem="6xq-85-Udg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="6" id="hVx-hS-12O"/>
+                <constraint firstItem="ooN-hx-r6y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="jP9-nm-Dmt"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImg" destination="Cbi-Ar-96S" id="xC6-hE-En9"/>
+                <outlet property="nameL" destination="mXG-z4-ykE" id="SAx-Vy-NhI"/>
+                <outlet property="praiseB" destination="6xq-85-Udg" id="GhB-kT-4a7"/>
+                <outlet property="textL" destination="ooN-hx-r6y" id="Usa-kO-DdF"/>
+                <outlet property="timeL" destination="npt-WA-FDg" id="kkS-vQ-lTh"/>
+            </connections>
+            <point key="canvasLocation" x="-11" y="0.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_laud" width="22" height="22"/>
+        <image name="jiazaituxiang" width="45" height="45"/>
+    </resources>
+</document>

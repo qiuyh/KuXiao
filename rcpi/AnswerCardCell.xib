@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AnswerCardCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9W-Xt-k3T">
+                        <rect key="frame" x="160" y="444" width="159.5" height="60"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.14509803921568629" green="1" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" title="继续做题">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="continueAnswer:" destination="gTV-IL-0wX" eventType="touchUpInside" id="CMt-f6-g6p"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeT-oZ-8Ij" userLabel="竖线">
+                        <rect key="frame" x="159" y="444" width="1" height="60"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Ugb-va-1Xy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="答题卡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gcs-rn-OG5">
+                        <rect key="frame" x="131" y="0.0" width="57" height="47"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="47" id="9Uw-pI-ybK"/>
+                            <constraint firstAttribute="width" constant="57" id="Bsk-yE-9Ry"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVz-5v-RaM">
+                        <rect key="frame" x="0.0" y="61" width="320" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="fKw-z3-5Rq"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GmW-dt-iNP">
+                        <rect key="frame" x="0.0" y="444" width="159.5" height="60"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.064853390089306573" green="1" blue="0.80945621001580514" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="Mbz-gB-Xcj"/>
+                        </constraints>
+                        <state key="normal" title="提交试卷">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="updata:" destination="gTV-IL-0wX" eventType="touchUpInside" id="QZf-QC-Ikz"/>
+                        </connections>
+                    </button>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5np-TM-cgb">
+                        <rect key="frame" x="0.0" y="101" width="320" height="343"/>
+                        <animations/>
+                    </scrollView>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="U9W-Xt-k3T" secondAttribute="trailing" id="14V-0b-c9H"/>
+                <constraint firstItem="U9W-Xt-k3T" firstAttribute="leading" secondItem="HeT-oZ-8Ij" secondAttribute="trailing" constant="1" id="4gD-UU-87Z"/>
+                <constraint firstItem="U9W-Xt-k3T" firstAttribute="height" secondItem="GmW-dt-iNP" secondAttribute="height" id="4tg-Av-lrD"/>
+                <constraint firstAttribute="bottom" secondItem="GmW-dt-iNP" secondAttribute="bottom" id="9E5-bz-cwy"/>
+                <constraint firstItem="ZVz-5v-RaM" firstAttribute="top" secondItem="Gcs-rn-OG5" secondAttribute="bottom" constant="14" id="AHS-5b-FNI"/>
+                <constraint firstAttribute="trailing" secondItem="5np-TM-cgb" secondAttribute="trailing" id="Cbz-i0-I4W"/>
+                <constraint firstItem="U9W-Xt-k3T" firstAttribute="leading" secondItem="HeT-oZ-8Ij" secondAttribute="trailing" id="FZP-Uk-IFG"/>
+                <constraint firstItem="HeT-oZ-8Ij" firstAttribute="height" secondItem="GmW-dt-iNP" secondAttribute="height" id="Mq7-kX-nJV"/>
+                <constraint firstItem="GmW-dt-iNP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="RxI-ma-wGa"/>
+                <constraint firstItem="Gcs-rn-OG5" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="YFk-vI-W3r"/>
+                <constraint firstItem="5np-TM-cgb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dvt-DZ-zhJ"/>
+                <constraint firstItem="Gcs-rn-OG5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eUZ-Nx-TRl"/>
+                <constraint firstAttribute="bottom" secondItem="HeT-oZ-8Ij" secondAttribute="bottom" id="gPz-gL-qwD"/>
+                <constraint firstItem="ZVz-5v-RaM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gxv-F0-sqe"/>
+                <constraint firstItem="HeT-oZ-8Ij" firstAttribute="leading" secondItem="GmW-dt-iNP" secondAttribute="trailing" id="hu1-Fw-A87"/>
+                <constraint firstAttribute="trailing" secondItem="ZVz-5v-RaM" secondAttribute="trailing" id="izq-nO-ph1"/>
+                <constraint firstItem="5np-TM-cgb" firstAttribute="top" secondItem="ZVz-5v-RaM" secondAttribute="bottom" constant="10" id="jJy-Pw-ss7"/>
+                <constraint firstItem="GmW-dt-iNP" firstAttribute="top" secondItem="5np-TM-cgb" secondAttribute="bottom" id="ovd-V3-QWa"/>
+                <constraint firstAttribute="bottom" secondItem="U9W-Xt-k3T" secondAttribute="bottom" id="s4r-mY-qAy"/>
+                <constraint firstItem="U9W-Xt-k3T" firstAttribute="width" secondItem="GmW-dt-iNP" secondAttribute="width" id="xu9-2V-6CT"/>
+                <constraint firstItem="HeT-oZ-8Ij" firstAttribute="leading" secondItem="GmW-dt-iNP" secondAttribute="trailing" constant="8" id="yqa-XT-zMq"/>
+            </constraints>
+            <size key="customSize" width="170" height="203"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="yqa-XT-zMq"/>
+                    <exclude reference="4gD-UU-87Z"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="continueBtn" destination="U9W-Xt-k3T" id="13w-yV-xaX"/>
+                <outlet property="scrollView" destination="5np-TM-cgb" id="MLy-xY-UBK"/>
+                <outlet property="sendBtn" destination="GmW-dt-iNP" id="0ZN-Pk-Q20"/>
+                <outlet property="titleView" destination="ZVz-5v-RaM" id="dDO-Bs-42W"/>
+            </connections>
+            <point key="canvasLocation" x="176" y="156"/>
+        </collectionViewCell>
+    </objects>
+</document>

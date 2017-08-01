@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnswerSheetCtl">
+            <connections>
+                <outlet property="scrollView" destination="0TL-pB-Siq" id="taa-62-BU0"/>
+                <outlet property="sendBtn" destination="pL3-Sz-NgK" id="A5m-nU-IVI"/>
+                <outlet property="titleLabel" destination="mAg-XP-CgP" id="55v-A9-kYK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="评测试卷" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAg-XP-CgP">
+                    <rect key="frame" x="0.0" y="74" width="320" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="NYr-yU-rrB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0TL-pB-Siq">
+                    <rect key="frame" x="0.0" y="119" width="320" height="400"/>
+                    <animations/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-Sz-NgK">
+                    <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="S8M-Ed-Fkg"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="提交试卷"/>
+                    <connections>
+                        <action selector="sendExam:" destination="-1" eventType="touchUpInside" id="NO8-M8-eTg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mAg-XP-CgP" secondAttribute="trailing" id="8Ky-BG-4AX"/>
+                <constraint firstItem="mAg-XP-CgP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="LsG-zl-Hs1"/>
+                <constraint firstItem="0TL-pB-Siq" firstAttribute="top" secondItem="mAg-XP-CgP" secondAttribute="bottom" constant="15" id="dWv-Z6-rBB"/>
+                <constraint firstAttribute="trailing" secondItem="pL3-Sz-NgK" secondAttribute="trailing" id="ewV-hk-dig"/>
+                <constraint firstItem="pL3-Sz-NgK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fh0-vY-grv"/>
+                <constraint firstAttribute="trailing" secondItem="0TL-pB-Siq" secondAttribute="trailing" id="ftF-o5-vAW"/>
+                <constraint firstItem="mAg-XP-CgP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="q3E-Rb-zaH"/>
+                <constraint firstItem="pL3-Sz-NgK" firstAttribute="top" secondItem="0TL-pB-Siq" secondAttribute="bottom" id="tas-Jo-R3t"/>
+                <constraint firstAttribute="bottom" secondItem="pL3-Sz-NgK" secondAttribute="bottom" id="tgr-h4-Edl"/>
+                <constraint firstItem="0TL-pB-Siq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vdT-xd-SD2"/>
+            </constraints>
+            <point key="canvasLocation" x="198" y="153"/>
+        </view>
+    </objects>
+</document>

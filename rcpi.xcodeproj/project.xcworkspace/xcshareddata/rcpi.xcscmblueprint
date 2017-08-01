@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C7BC7B3A05783154DBB6EBFB9176CD7EE6DC4792",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "51A872BB0BDFC2BED16E7CAC1D79DD33282889E1" : 0,
+    "0188F2A2CDE1E23FB54BA7DEC720DB0076A94A2D" : 0,
+    "55E1F88EC7C3D30C0724BAC50578540F5DB66A3B" : 0,
+    "1E35F6861151738B66A66A83062CA141EC37E1DA" : 0,
+    "C7BC7B3A05783154DBB6EBFB9176CD7EE6DC4792" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D88628B6-B04D-4B37-A049-BA508AB93566",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "51A872BB0BDFC2BED16E7CAC1D79DD33282889E1" : "rcpi\/libs\/iwf\/libs\/cwf\/",
+    "0188F2A2CDE1E23FB54BA7DEC720DB0076A94A2D" : "rcpi\/libs\/iwf\/libs\/protobuf-objc\/",
+    "55E1F88EC7C3D30C0724BAC50578540F5DB66A3B" : "rcpi\/libs\/iwf\/",
+    "1E35F6861151738B66A66A83062CA141EC37E1DA" : "rcpi\/",
+    "C7BC7B3A05783154DBB6EBFB9176CD7EE6DC4792" : "kuxiao\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "rcpi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "rcpi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/alexeyxo\/protobuf-objc",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0188F2A2CDE1E23FB54BA7DEC720DB0076A94A2D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/w.gdy.io\/rcp-i\/rcpi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E35F6861151738B66A66A83062CA141EC37E1DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Centny\/cwf",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51A872BB0BDFC2BED16E7CAC1D79DD33282889E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Centny\/iwf",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55E1F88EC7C3D30C0724BAC50578540F5DB66A3B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/vxchj\/kuxiao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7BC7B3A05783154DBB6EBFB9176CD7EE6DC4792"
+    }
+  ]
+}

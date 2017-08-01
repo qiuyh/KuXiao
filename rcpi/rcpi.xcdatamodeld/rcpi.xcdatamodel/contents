@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="ChatContentList" representedClassName="ChatContentList" syncable="YES">
+        <attribute name="chat_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chat_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="m_a" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m_type" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="r_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="u_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ContactList" representedClassName="ContactList" syncable="YES">
+        <attribute name="new_msg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="r_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="u_alias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="u_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="u_img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="u_online" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="u_type" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="up_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChatContentList" positionX="-36" positionY="9" width="128" height="165"/>
+        <element name="ContactList" positionX="-54" positionY="-9" width="128" height="180"/>
+    </elements>
+</model>
